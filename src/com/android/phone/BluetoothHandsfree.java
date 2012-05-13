@@ -479,6 +479,11 @@ public class BluetoothHandsfree {
         // Sync with setting mConnectScoThread to null to assure the validity of
         // the condition
         synchronized (ScoSocketConnectThread.class) {
+            if (mConnectedSco != null) {
+                if (DBG) log("SCO audio is already connected");
+                return;
+            }
+
             if (mConnectScoThread == null) {
                 BluetoothDevice device = mHeadset.getRemoteDevice();
                 if (getAudioState(device) == BluetoothHeadset.STATE_AUDIO_DISCONNECTED) {
@@ -623,6 +628,10 @@ public class BluetoothHandsfree {
             name = "<unknown>";
         }
         mAudioManager.setParameters(HEADSET_NAME+"="+name+";"+HEADSET_NREC+"=on");
+    }
+
+    boolean isBluetoothVoiceDialingEnabled() {
+       return ((mRemoteBrsf & BRSF_HF_VOICE_REG_ACT) != 0x0) ? true : false;
     }
 
 

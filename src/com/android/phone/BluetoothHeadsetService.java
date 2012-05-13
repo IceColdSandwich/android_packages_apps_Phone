@@ -288,6 +288,11 @@ public class BluetoothHeadsetService extends Service {
                             mBinder.disconnect(currDevice);
                         } catch (RemoteException e) {}
                     }
+                    if (mConnectThread != null) {
+                        try {
+                            mBinder.cancelConnectThread();
+                        } catch (RemoteException e) {}
+                    }
                     break;
                 }
             } else if (action.equals(AudioManager.VOLUME_CHANGED_ACTION)) {
@@ -549,6 +554,9 @@ public class BluetoothHeadsetService extends Service {
                 type = BluetoothHandsfree.TYPE_HANDSFREE;
                 mRemoteHeadsets.get(device).mHeadsetType = type;
                 int channel = device.getServiceChannel(BluetoothUuid.Handsfree);
+                if (mConnectThread != null) {
+                    return;
+                }
                 mConnectThread = new RfcommConnectThread(device, channel, type);
                 if (mAdapter.isDiscovering()) {
                     mAdapter.cancelDiscovery();
@@ -564,6 +572,9 @@ public class BluetoothHeadsetService extends Service {
                 type = BluetoothHandsfree.TYPE_HEADSET;
                 mRemoteHeadsets.get(device).mHeadsetType = type;
                 int channel = device.getServiceChannel(BluetoothUuid.HSP);
+                if (mConnectThread != null) {
+                    return ;
+                }
                 mConnectThread = new RfcommConnectThread(device, channel, type);
                 if (mAdapter.isDiscovering()) {
                     mAdapter.cancelDiscovery();
@@ -902,7 +913,14 @@ public class BluetoothHeadsetService extends Service {
             if (headset == null) return BluetoothHeadset.STATE_AUDIO_DISCONNECTED;
 
             return headset.mAudioState;
-       }
+        }
+
+        public boolean isBluetoothVoiceDialingEnabled(BluetoothDevice device) {
+            BluetoothRemoteHeadset headset = mRemoteHeadsets.get(device);
+            if (headset == null || mBtHandsfree == null) return false;
+
+            return mBtHandsfree.isBluetoothVoiceDialingEnabled();
+        }
     };
 
     @Override
