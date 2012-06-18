@@ -183,7 +183,7 @@ public class Ringer {
                 int ringDelay = Integer.valueOf(callSettings.getString(CallFeaturesSetting.BUTTON_RING_DELAY_KEY, "0"));
                 mFirstRingEventTime = SystemClock.elapsedRealtime() + ringDelay*1000;
                 mRingHandler.sendEmptyMessageDelayed(PLAY_RING_ONCE, ringDelay*1000);
-            } else {
+            
                 ContentResolver cr = mContext.getContentResolver();
                 boolean increasing = Settings.System.getInt(cr,
                         Settings.System.INCREASING_RING, 0) == 1;
@@ -207,7 +207,6 @@ public class Ringer {
                 } else {
                     mRingerVolumeSetting = -1;
                 }
-            }
 
             } else {
                 // For repeat rings, figure out by how much to delay
