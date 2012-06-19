@@ -90,6 +90,7 @@ public class PhoneToggler extends BroadcastReceiver {
             case Phone.NT_MODE_GSM_UMTS:
             case Phone.NT_MODE_WCDMA_ONLY:
             case Phone.NT_MODE_WCDMA_PREF:
+            case Phone.NT_MODE_LTE_GSM_WCDMA:
                 return (!isCdma);
         }
         return false;
