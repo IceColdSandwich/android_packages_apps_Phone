@@ -509,6 +509,7 @@
             </intent-filter>
         </receiver>
     </application>
+        <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
     
     <permission
         android:description="@string/per_change_mobile_network_desc"
