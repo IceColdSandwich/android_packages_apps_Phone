@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -33,7 +33,7 @@
     <string name="callFailed_number_unreachable" msgid="7632566442515734778">"Numéro injoignable"</string>
     <string name="callFailed_invalid_credentials" msgid="8226835346196775378">"Nom d\'utilisateur ou mot de passe incorrect"</string>
     <string name="callFailed_out_of_network" msgid="6485167392133436262">"Appel hors réseau"</string>
-    <string name="callFailed_server_error" msgid="5717915213586193217">"Erreur serveur : réessayez plus tard."</string>
+    <string name="callFailed_server_error" msgid="5717915213586193217">"Erreur serveur : réessayez plus tard."</string>
     <string name="callFailed_noSignal" msgid="1889803273616031933">"Aucun signal"</string>
     <string name="callFailed_limitExceeded" msgid="4958065157970101491">"Limite ACM dépassée"</string>
     <string name="callFailed_powerOff" msgid="2766035859391549713">"Signal radio désactivé"</string>
@@ -44,14 +44,14 @@
     <string name="callFailed_dsac_restricted" msgid="2180223622768522345">"Tous les appels sont restreints par un contrôle d\'accès."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="4353654268813314466">"Les appels d\'urgence sont restreints par un contrôle d\'accès."</string>
     <string name="callFailed_dsac_restricted_normal" msgid="2680774510252408620">"Les appels ordinaires sont restreints par un contrôle d\'accès."</string>
-    <string name="callFailed_cdma_lockedUntilPowerCycle" msgid="775483211928061084">"CDMA : téléphone déverrouillé jusqu\'au prochain redémarrage"</string>
-    <string name="callFailed_cdma_drop" msgid="6030084920001082496">"CDMA : appel abandonné"</string>
-    <string name="callFailed_cdma_intercept" msgid="8402269373120277330">"CDMA : appel intercepté"</string>
-    <string name="callFailed_cdma_reorder" msgid="5605791471418711552">"CDMA : retrier"</string>
-    <string name="callFailed_cdma_SO_reject" msgid="8969174256492763555">"CDMA : rejet de l\'option de service"</string>
-    <string name="callFailed_cdma_retryOrder" msgid="5848488692485148804">"CDMA : nouvelle tentative de tri"</string>
-    <string name="callFailed_cdma_accessFailure" msgid="715977130417624962">"CDMA : échec de l\'accès."</string>
-    <string name="callFailed_cdma_preempted" msgid="1097095321180029879">"CDMA : anticipé"</string>
+    <string name="callFailed_cdma_lockedUntilPowerCycle" msgid="775483211928061084">"CDMA : téléphone déverrouillé jusqu\'au prochain redémarrage"</string>
+    <string name="callFailed_cdma_drop" msgid="6030084920001082496">"CDMA : appel abandonné"</string>
+    <string name="callFailed_cdma_intercept" msgid="8402269373120277330">"CDMA : appel intercepté"</string>
+    <string name="callFailed_cdma_reorder" msgid="5605791471418711552">"CDMA : retrier"</string>
+    <string name="callFailed_cdma_SO_reject" msgid="8969174256492763555">"CDMA : rejet de l\'option de service"</string>
+    <string name="callFailed_cdma_retryOrder" msgid="5848488692485148804">"CDMA : nouvelle tentative de tri"</string>
+    <string name="callFailed_cdma_accessFailure" msgid="715977130417624962">"CDMA : échec de l\'accès."</string>
+    <string name="callFailed_cdma_preempted" msgid="1097095321180029879">"CDMA : anticipé"</string>
     <string name="callFailed_cdma_notEmergency" msgid="2347377816822720761">"Services d\'urgence uniquement"</string>
     <string name="callFailed_unobtainable_number" msgid="7886274717456712105">"Numéro incorrect"</string>
     <string name="confCall" msgid="1904840547188336828">"Conférence tél."</string>
@@ -68,7 +68,7 @@
     <string name="audio_mode_earpiece" msgid="4156527186373869107">"Écouteur du combiné"</string>
     <string name="audio_mode_wired_headset" msgid="1465350758489175975">"Écouteurs filaires"</string>
     <string name="audio_mode_bluetooth" msgid="3047641300848211128">"Bluetooth"</string>
-    <string name="wait_prompt_str" msgid="7601815427707856238">"Envoyer les tonalités suivantes ?"\n</string>
+    <string name="wait_prompt_str" msgid="7601815427707856238">"Envoyer les tonalités suivantes ?"\n</string>
     <string name="pause_prompt_str" msgid="341477243019906241">"Envoi des tonalités"\n</string>
     <string name="send_button" msgid="4106860097497818751">"Envoyer"</string>
     <string name="pause_prompt_yes" msgid="3564467212025151797">"Oui"</string>
@@ -100,7 +100,7 @@
     <string name="apn_settings" msgid="9043423184895642077">"Noms des points d\'accès"</string>
     <string name="settings_label" msgid="3876743539816984008">"Paramètres du réseau"</string>
     <string name="voicemail" msgid="8693759337917898954">"Messagerie vocale"</string>
-    <string name="voicemail_abbreviated" msgid="2215592488517217448">"MV :"</string>
+    <string name="voicemail_abbreviated" msgid="2215592488517217448">"MV :"</string>
     <string name="networks" msgid="8873030692174541976">"Opérateur de réseau"</string>
     <string name="call_settings" msgid="6112441768261754562">"Paramètres d\'appel"</string>
     <string name="additional_gsm_call_settings" msgid="1391795981938800617">"Autres paramètres"</string>
@@ -160,7 +160,7 @@
     <string name="vm_changed" msgid="380744030726254139">"Le numéro de messagerie vocale a été modifié."</string>
     <string name="vm_change_failed" msgid="6912718596496220653">"Échec de la modification du numéro de messagerie vocale."\n"Si le problème persiste, veuillez contacter votre opérateur."</string>
     <string name="fw_change_failed" msgid="4437005899675054038">"Échec de la modification du numéro de transfert."\n"Si le problème persiste, veuillez contacter votre opérateur."</string>
-    <string name="fw_get_in_vm_failed" msgid="8862896836093833973">"Impossible de récupérer et d\'enregistrer les paramètres actuels du numéro de transfert."\n"Voulez-vous tout de même changer de fournisseur ?"</string>
+    <string name="fw_get_in_vm_failed" msgid="8862896836093833973">"Impossible de récupérer et d\'enregistrer les paramètres actuels du numéro de transfert."\n"Voulez-vous tout de même changer de fournisseur ?"</string>
     <string name="no_change" msgid="3186040086622435212">"Aucune modification n\'a été apportée."</string>
     <string name="sum_voicemail_choose_provider" msgid="59911196126278922">"Choisissez un service de messagerie vocale."</string>
     <string name="voicemail_default" msgid="5902099213882352338">"Mon opérateur"</string>
@@ -182,15 +182,15 @@
     <string name="preferred_network_mode_title" msgid="8873246565334559308">"Mode réseau"</string>
     <string name="preferred_network_mode_summary" msgid="1434820673166126609">"Changer le mode de fonctionnement du réseau"</string>
     <string name="preferred_network_mode_dialogtitle" msgid="8176355237105593793">"Mode réseau préféré"</string>
-    <string name="preferred_network_mode_wcdma_perf_summary" msgid="8521677230113533809">"Mode réseau préféré : WCDMA de préférence"</string>
-    <string name="preferred_network_mode_gsm_only_summary" msgid="3352445413437453511">"Mode réseau préféré : GSM uniquement"</string>
-    <string name="preferred_network_mode_wcdma_only_summary" msgid="2836897236221063413">"Mode réseau préféré : WCDMA uniquement"</string>
-    <string name="preferred_network_mode_gsm_wcdma_summary" msgid="3161255745326408587">"Mode réseau préféré : GSM/WCDMA"</string>
-    <string name="preferred_network_mode_cdma_summary" msgid="3175690187294334241">"Mode réseau préféré : CDMA"</string>
-    <string name="preferred_network_mode_cdma_evdo_summary" msgid="8332063064712726618">"Mode réseau préféré : CDMA/EvDo"</string>
-    <string name="preferred_network_mode_cdma_only_summary" msgid="1309770926198634150">"Mode réseau préféré : CDMA uniquement"</string>
-    <string name="preferred_network_mode_evdo_only_summary" msgid="8472220691721269155">"Mode réseau préféré : EvDo uniquement"</string>
-    <string name="preferred_network_mode_lte_cdma_summary" msgid="3722647806454528426">"Mode réseau préféré : LTE/CDMA"</string>
+    <string name="preferred_network_mode_wcdma_perf_summary" msgid="8521677230113533809">"Mode réseau préféré : WCDMA de préférence"</string>
+    <string name="preferred_network_mode_gsm_only_summary" msgid="3352445413437453511">"Mode réseau préféré : GSM uniquement"</string>
+    <string name="preferred_network_mode_wcdma_only_summary" msgid="2836897236221063413">"Mode réseau préféré : WCDMA uniquement"</string>
+    <string name="preferred_network_mode_gsm_wcdma_summary" msgid="3161255745326408587">"Mode réseau préféré : GSM/WCDMA"</string>
+    <string name="preferred_network_mode_cdma_summary" msgid="3175690187294334241">"Mode réseau préféré : CDMA"</string>
+    <string name="preferred_network_mode_cdma_evdo_summary" msgid="8332063064712726618">"Mode réseau préféré : CDMA/EvDo"</string>
+    <string name="preferred_network_mode_cdma_only_summary" msgid="1309770926198634150">"Mode réseau préféré : CDMA uniquement"</string>
+    <string name="preferred_network_mode_evdo_only_summary" msgid="8472220691721269155">"Mode réseau préféré : EvDo uniquement"</string>
+    <string name="preferred_network_mode_lte_cdma_summary" msgid="3722647806454528426">"Mode réseau préféré : LTE/CDMA"</string>
   <string-array name="preferred_network_mode_choices">
     <item msgid="5886604709726177211">"LTE/CDMA"</item>
     <item msgid="3273348576277144124">"EvDo uniquement"</item>
@@ -211,7 +211,7 @@
     <string name="roaming_enable" msgid="7331106985174381987">"Se connecter aux services de données lors de l\'itinérance"</string>
     <string name="roaming_disable" msgid="1843417228755568110">"Se connecter aux services de données lors de l\'itinérance"</string>
     <string name="roaming_reenable_message" msgid="6973894869473170666">"Vous avez été déconnecté car vous avez quitté votre réseau alors que l\'itinérance des données était désactivée."</string>
-    <string name="roaming_warning" msgid="7820963598559553967">"Autoriser l\'itinérance des données ? Des frais d\'itinérance importants peuvent s\'appliquer !"</string>
+    <string name="roaming_warning" msgid="7820963598559553967">"Autoriser l\'itinérance des données ? Des frais d\'itinérance importants peuvent s\'appliquer !"</string>
     <string name="gsm_umts_options" msgid="6538311689850981686">"Options GSM/UMTS"</string>
     <string name="cdma_options" msgid="4016822858172249884">"Options CDMA"</string>
     <string name="throttle_data_usage" msgid="3715677828160555808">"Consommation des données"</string>
@@ -220,11 +220,11 @@
     <string name="throttle_time_frame" msgid="1915198770363734685">"Période d\'utilisation des données"</string>
     <string name="throttle_rate" msgid="4710388992676803508">"Règles relatives au taux de transfert des données"</string>
     <string name="throttle_help" msgid="243651091785169900">"En savoir plus"</string>
-    <string name="throttle_status_subtext" msgid="1657318943142085170">"<xliff:g id="USED_0">%1$s</xliff:g> sur <xliff:g id="USED_2">%3$s</xliff:g> - (<xliff:g id="USED_1">%2$d</xliff:g> ٪) du maximum par période"\n"La prochaine période démarre dans <xliff:g id="USED_3">%4$d</xliff:g> jours (<xliff:g id="USED_4">%5$s</xliff:g>)."</string>
-    <string name="throttle_data_usage_subtext" msgid="6029276011123694701">"<xliff:g id="USED_0">%1$s</xliff:g> sur <xliff:g id="USED_2">%3$s</xliff:g> - (<xliff:g id="USED_1">%2$d</xliff:g> ٪) du maximum par période"</string>
-    <string name="throttle_data_rate_reduced_subtext" msgid="7492763592720107737">"<xliff:g id="USED_0">%1$s</xliff:g> maximum dépassé"\n"Taux de transfert des données réduit à <xliff:g id="USED_1">%2$d</xliff:g> Ko/s"</string>
-    <string name="throttle_time_frame_subtext" msgid="7732763021560399960">"<xliff:g id="USED_0">%1$d</xliff:g> ٪ du cycle écoulé"\n"La prochaine période démarre dans <xliff:g id="USED_1">%2$d</xliff:g> jours (<xliff:g id="USED_2">%3$s</xliff:g>)."</string>
-    <string name="throttle_rate_subtext" msgid="2149102656120726855">"Taux de transfert des données réduit à <xliff:g id="USED">%1$d</xliff:g> Ko/s si le plafond d\'utilisation est dépassé"</string>
+    <string name="throttle_status_subtext" msgid="1657318943142085170">"<xliff:g id="USED_0">%1$s</xliff:g> sur <xliff:g id="USED_2">%3$s</xliff:g> - (<xliff:g id="USED_1">%2$d</xliff:g> ٪) du maximum par période"\n"La prochaine période démarre dans <xliff:g id="USED_3">%4$d</xliff:g> jours (<xliff:g id="USED_4">%5$s</xliff:g>)."</string>
+    <string name="throttle_data_usage_subtext" msgid="6029276011123694701">"<xliff:g id="USED_0">%1$s</xliff:g> sur <xliff:g id="USED_2">%3$s</xliff:g> - (<xliff:g id="USED_1">%2$d</xliff:g> ٪) du maximum par période"</string>
+    <string name="throttle_data_rate_reduced_subtext" msgid="7492763592720107737">"<xliff:g id="USED_0">%1$s</xliff:g> maximum dépassé"\n"Taux de transfert des données réduit à <xliff:g id="USED_1">%2$d</xliff:g> Ko/s"</string>
+    <string name="throttle_time_frame_subtext" msgid="7732763021560399960">"<xliff:g id="USED_0">%1$d</xliff:g> ٪ du cycle écoulé"\n"La prochaine période démarre dans <xliff:g id="USED_1">%2$d</xliff:g> jours (<xliff:g id="USED_2">%3$s</xliff:g>)."</string>
+    <string name="throttle_rate_subtext" msgid="2149102656120726855">"Taux de transfert des données réduit à <xliff:g id="USED">%1$d</xliff:g> Ko/s si le plafond d\'utilisation est dépassé"</string>
     <string name="throttle_help_subtext" msgid="5217706521499010816">"Plus d\'informations sur les règles de votre opérateur mobile concernant l\'utilisation des données sur son réseau"</string>
     <string name="cdma_cell_broadcast_sms" msgid="7898475142527341808">"Diffusion cellulaire par SMS"</string>
     <string name="cell_broadcast_sms" msgid="5584192824053625842">"Diffusion cellulaire par SMS"</string>
@@ -414,15 +414,15 @@
     <string name="delete_fdn_contact" msgid="6668958073074151717">"Supprimer un numéro autorisé"</string>
     <string name="deleting_fdn_contact" msgid="5669163206349319969">"Suppression du numéro autorisé…"</string>
     <string name="fdn_contact_deleted" msgid="7154162327112259569">"Numéro autorisé supprimé"</string>
-    <string name="pin2_invalid" msgid="7176360264228076810">"Impossible de mettre à jour le numéro autorisé : le code PIN que vous avez saisi est incorrect."</string>
-    <string name="fdn_invalid_number" msgid="9193130794297997290">"Impossible de mettre à jour le numéro autorisé : ce type de numéro ne peut pas comporter plus de 20 chiffres."</string>
+    <string name="pin2_invalid" msgid="7176360264228076810">"Impossible de mettre à jour le numéro autorisé : le code PIN que vous avez saisi est incorrect."</string>
+    <string name="fdn_invalid_number" msgid="9193130794297997290">"Impossible de mettre à jour le numéro autorisé : ce type de numéro ne peut pas comporter plus de 20 chiffres."</string>
     <string name="simContacts_emptyLoading" msgid="2203331234764498011">"Lecture de la carte SIM…"</string>
     <string name="simContacts_empty" msgid="5270660846489561932">"Aucun contact n\'a été trouvé sur votre carte SIM."</string>
     <string name="simContacts_title" msgid="1861472842524839921">"Sélection des contacts à importer"</string>
     <string name="simContacts_airplaneMode" msgid="8221701142387137660">"Pour importer des contacts depuis la carte SIM, veuillez désactiver le mode Avion."</string>
     <string name="enable_pin" msgid="5422767284133234860">"Activer/désactiver le code PIN de la carte SIM"</string>
     <string name="change_pin" msgid="9174186126330785343">"Modifier le code PIN de la carte SIM"</string>
-    <string name="enter_pin_text" msgid="8532615714751931951">"Code PIN de la carte SIM :"</string>
+    <string name="enter_pin_text" msgid="8532615714751931951">"Code PIN de la carte SIM :"</string>
     <string name="oldPinLabel" msgid="5287773661246368314">"Ancien code PIN"</string>
     <string name="newPinLabel" msgid="207488227285336897">"Nouveau code PIN"</string>
     <string name="confirmPinLabel" msgid="257597715098070206">"Confirmer le nouveau code PIN"</string>
@@ -444,7 +444,7 @@
     <string name="badPuk2" msgid="4072035207011308856">"Le code PIN2 saisi est incorrect. Veuillez réessayer."</string>
     <string name="badPin2" msgid="515218795152422178">"L\'ancien code PIN2 saisi est incorrect. Veuillez réessayer."</string>
     <string name="mismatchPin2" msgid="4177060915600342718">"Les codes PIN2 saisis ne correspondent pas. Merci de réessayer."</string>
-    <string name="invalidPin2" msgid="8237110107480395938">"Saisissez un code PIN2 comprenant 4 à 8 chiffres."</string>
+    <string name="invalidPin2" msgid="8237110107480395938">"Saisissez un code PIN2 comprenant 4 à 8 chiffres."</string>
     <string name="invalidPuk2" msgid="1290977391033057871">"Saisissez une clé PUK2 à 8 chiffres."</string>
     <string name="pin2_changed" msgid="2670422162555916562">"Le code PIN2 a été modifié."</string>
     <string name="label_puk2_code" msgid="302845876240219560">"Saisissez la clé PUK2."</string>
@@ -500,8 +500,8 @@
     <string name="emergency_enable_radio_dialog_title" msgid="4627849966634578257">"Appel d\'urgence"</string>
     <string name="emergency_enable_radio_dialog_message" msgid="207613549344420291">"Activation du signal radio..."</string>
     <string name="emergency_enable_radio_dialog_retry" msgid="3724423402363063736">"Hors zone de couverture. Nouvelle tentative..."</string>
-    <string name="dial_emergency_error" msgid="8362624131726575194">"L\'appel n\'a pas été effectué. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> n\'est pas un numéro d\'urgence !"</string>
-    <string name="dial_emergency_empty_error" msgid="5048645338094088229">"L\'appel n\'a pas été effectué. Veuillez composer un numéro d\'urgence !"</string>
+    <string name="dial_emergency_error" msgid="8362624131726575194">"L\'appel n\'a pas été effectué. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> n\'est pas un numéro d\'urgence !"</string>
+    <string name="dial_emergency_empty_error" msgid="5048645338094088229">"L\'appel n\'a pas été effectué. Veuillez composer un numéro d\'urgence !"</string>
     <string name="dialerKeyboardHintText" msgid="9192914825413747792">"Utilisez le clavier pour composer un numéro."</string>
     <string name="dtmfDialpadHintText" msgid="2153335217920679451">"Touches sonores"</string>
     <string name="onscreenHoldText" msgid="2285258239691145872">"En attente"</string>
@@ -541,19 +541,19 @@
     <string name="ota_title_activate" msgid="8616918561356194398">"Activer votre téléphone"</string>
     <string name="ota_touch_activate" msgid="6553212803262586244">"Vous devez passer un appel spécial pour activer le service de téléphonie. "\n\n"Après avoir appuyé sur \"Activer\", écoutez les instructions qui vous permettront d\'activer votre téléphone."</string>
     <string name="ota_touch_activate_new" msgid="4508197891732183852">"Touchez Activer pour passer un appel spécial qui activera votre téléphone sur le réseau mobile de votre opérateur. Vous pourrez ensuite téléphoner et vous connecter à des réseaux de données mobiles."</string>
-    <string name="ota_skip_activation_dialog_title" msgid="2943366608272261306">"Ignorer l\'activation ?"</string>
+    <string name="ota_skip_activation_dialog_title" msgid="2943366608272261306">"Ignorer l\'activation ?"</string>
     <string name="ota_skip_activation_dialog_message" msgid="2440770373498870550">"Si vous poursuivez sans activer votre mobile, vous ne pourrez ni téléphoner, ni vous connecter à des réseaux de données mobiles. La connexion à un réseau Wi-Fi reste possible. Vous serez invité à effectuer l\'activation à chaque démarrage du téléphone."</string>
     <string name="ota_skip_activation_dialog_skip_label" msgid="3458532775091563208">"Ignorer"</string>
     <string name="ota_skip_activation_dialog_continue_label" msgid="4343765820509664362">"Activer"</string>
     <string name="ota_activate" msgid="1368528132525626264">"Activer"</string>
-    <string name="ota_title_activate_success" msgid="3344632328991980578">"Votre téléphone est activé !"</string>
+    <string name="ota_title_activate_success" msgid="3344632328991980578">"Votre téléphone est activé !"</string>
     <string name="ota_title_problem_with_activation" msgid="7095824491970084367">"Problème lors de l\'activation"</string>
     <string name="ota_listen" msgid="162923839877584937">"Suivez les instructions orales jusqu\'au bout de la procédure d\'activation."</string>
     <string name="ota_dialpad" msgid="3530900997110658409">"Clavier"</string>
     <string name="ota_speaker" msgid="6904589278542719647">"Ht. parleur"</string>
     <string name="ota_progress" msgid="4644512049143969504">"Veuillez patienter pendant la programmation de votre téléphone."</string>
     <string name="ota_failure" msgid="8600027551822478181">"Échec de la programmation"</string>
-    <string name="ota_successful" msgid="1880780692887077407">"Votre téléphone est désormais activé. Un délai de 15 minutes peut être nécessaire avant de démarrer le service."</string>
+    <string name="ota_successful" msgid="1880780692887077407">"Votre téléphone est désormais activé. Un délai de 15 minutes peut être nécessaire avant de démarrer le service."</string>
     <string name="ota_unsuccessful" msgid="623361244652068739">"Votre téléphone n\'a pas pu être activé. "\n"Vous devez peut-être vous déplacer vers une zone disposant d\'une meilleure couverture (près d\'une fenêtre ou à l\'extérieur). "\n\n"Réessayez ou appelez le service clientèle pour plus d\'options."</string>
     <string name="ota_spc_failure" msgid="3909983542575030796">"NOMBRE EXCESSIF D\'ÉCHECS SPC"</string>
     <string name="ota_call_end" msgid="4537279738134612388">"Retour"</string>
@@ -565,16 +565,16 @@
     <string name="phone_in_ecm_notification_title" msgid="3226896828951687085">"Mode de rappel d\'urgence"</string>
     <string name="phone_in_ecm_call_notification_text" msgid="4611608947314729773">"Connexion des données désactivée"</string>
   <plurals name="phone_in_ecm_notification_time">
-    <item quantity="one" msgid="4866221796252472622">"Aucune connexion de données pendant <xliff:g id="COUNT">%s</xliff:g> minute"</item>
-    <item quantity="other" msgid="3122217344579273583">"Aucune connexion de données pendant <xliff:g id="COUNT">%s</xliff:g> minutes"</item>
+    <item quantity="one" msgid="4866221796252472622">"Aucune connexion de données pendant <xliff:g id="COUNT">%s</xliff:g> minute"</item>
+    <item quantity="other" msgid="3122217344579273583">"Aucune connexion de données pendant <xliff:g id="COUNT">%s</xliff:g> minutes"</item>
   </plurals>
   <plurals name="alert_dialog_exit_ecm">
-    <item quantity="one" msgid="2181569650640386253">"Le téléphone sera en mode de rappel d\'urgence pendant <xliff:g id="COUNT">%s</xliff:g> minute. Dans ce mode, aucune application utilisant une connexion de données ne peut être utilisée. Souhaitez-vous quitter ce mode maintenant ?"</item>
-    <item quantity="other" msgid="3231879566243957821">"Le téléphone sera en mode de rappel d\'urgence pendant <xliff:g id="COUNT">%s</xliff:g> minutes. Dans ce mode, aucune application utilisant une connexion de données ne peut être utilisée. Souhaitez-vous quitter ce mode maintenant ?"</item>
+    <item quantity="one" msgid="2181569650640386253">"Le téléphone sera en mode de rappel d\'urgence pendant <xliff:g id="COUNT">%s</xliff:g> minute. Dans ce mode, aucune application utilisant une connexion de données ne peut être utilisée. Souhaitez-vous quitter ce mode maintenant ?"</item>
+    <item quantity="other" msgid="3231879566243957821">"Le téléphone sera en mode de rappel d\'urgence pendant <xliff:g id="COUNT">%s</xliff:g> minutes. Dans ce mode, aucune application utilisant une connexion de données ne peut être utilisée. Souhaitez-vous quitter ce mode maintenant ?"</item>
   </plurals>
   <plurals name="alert_dialog_not_avaialble_in_ecm">
-    <item quantity="one" msgid="8939225905428421722">"L\'action sélectionnée n\'est pas disponible lorsque le téléphone est en mode de rappel d\'urgence. Ce mode restera activé pendant <xliff:g id="COUNT">%s</xliff:g> minute. Souhaitez-vous quitter dès maintenant ?"</item>
-    <item quantity="other" msgid="3489076611710869904">"L\'action sélectionnée n\'est pas disponible lorsque le téléphone est en mode de rappel d\'urgence. Ce mode restera activé pendant <xliff:g id="COUNT">%s</xliff:g> minutes. Souhaitez-vous quitter dès maintenant ?"</item>
+    <item quantity="one" msgid="8939225905428421722">"L\'action sélectionnée n\'est pas disponible lorsque le téléphone est en mode de rappel d\'urgence. Ce mode restera activé pendant <xliff:g id="COUNT">%s</xliff:g> minute. Souhaitez-vous quitter dès maintenant ?"</item>
+    <item quantity="other" msgid="3489076611710869904">"L\'action sélectionnée n\'est pas disponible lorsque le téléphone est en mode de rappel d\'urgence. Ce mode restera activé pendant <xliff:g id="COUNT">%s</xliff:g> minutes. Souhaitez-vous quitter dès maintenant ?"</item>
   </plurals>
     <string name="alert_dialog_in_ecm_call" msgid="2334477874583086142">"L\'action sélectionnée n\'est pas disponible pendant un appel d\'urgence."</string>
     <string name="progress_dialog_exiting_ecm" msgid="8751952246695857820">"Sortie du mode de rappel d\'urgence"</string>
@@ -615,13 +615,13 @@
     <string name="auto_reg" msgid="8150163311655081599">"Enregistrement automatique"</string>
     <string name="call_priority" msgid="8374917577270504387">"Appel sortant via SIP"</string>
     <string name="pick_outgoing_call_phone_type" msgid="5622916534828338675">"Passer un appel"</string>
-    <string name="pick_outgoing_sip_phone" msgid="7012322118236208875">"Utiliser un compte de téléphonie par Internet :"</string>
+    <string name="pick_outgoing_sip_phone" msgid="7012322118236208875">"Utiliser un compte de téléphonie par Internet :"</string>
     <string name="remember_my_choice" msgid="7058059586169290705">"Utiliser systématiquement pour passer des appels Internet"</string>
     <string name="reset_my_choice_hint" msgid="8522825056755061594">"Servez-vous de l\'option Paramètres d\'appels pour changer le compte SIP (appels Internet) que vous utilisez par défaut lorsque vous émettez des appels. Pour ce faire, sélectionnez un autre compte sous Paramètres d\'appels Internet."</string>
     <string name="pstn_phone" msgid="8782554491484326429">"Appel de mobile"</string>
     <string name="internet_phone" msgid="1147922660195095810">"Appel par Internet"</string>
     <string name="no_sip_account_found_title" msgid="6266249392379373628">"Aucun compte de téléphonie par Internet"</string>
-    <string name="no_sip_account_found" msgid="8777818244108212791">"Il n\'existe pas de compte de téléphonie par Internet sur ce téléphone. En ajouter un maintenant ?"</string>
+    <string name="no_sip_account_found" msgid="8777818244108212791">"Il n\'existe pas de compte de téléphonie par Internet sur ce téléphone. En ajouter un maintenant ?"</string>
     <string name="sip_menu_add" msgid="8757508498518881500">"Ajouter"</string>
     <string name="add_sip_account" msgid="5904858426290097611">"Ajouter un compte"</string>
     <string name="remove_sip_account" msgid="7645900420385682570">"Supprimer le compte"</string>
@@ -646,9 +646,9 @@
     <string name="registration_status_no_wifi_data" msgid="6698550648571450078">"L\'enregistrement du compte a été interrompu car il n\'y a pas de connexion Wi-Fi."</string>
     <string name="registration_status_not_running" msgid="3826034902272084289">"Échec de l\'enregistrement du compte."</string>
     <string name="registration_status_done" msgid="6434927607037752239">"Réception d\'appels"</string>
-    <string name="registration_status_failed_try_later" msgid="5214474354451220581">"Échec de l\'enregistrement du compte : <xliff:g id="REGISTRATION_ERROR_MESSAGE">%s</xliff:g>. Une nouvelle tentative sera effectuée ultérieurement."</string>
+    <string name="registration_status_failed_try_later" msgid="5214474354451220581">"Échec de l\'enregistrement du compte : <xliff:g id="REGISTRATION_ERROR_MESSAGE">%s</xliff:g>. Une nouvelle tentative sera effectuée ultérieurement."</string>
     <string name="registration_status_invalid_credentials" msgid="85887803757211092">"Échec de l\'enregistrement du compte : nom d\'utilisateur ou mot de passe incorrect."</string>
-    <string name="registration_status_server_unreachable" msgid="9138794150602726009">"Échec de l\'enregistrement du compte : veuillez vérifier le nom du serveur."</string>
+    <string name="registration_status_server_unreachable" msgid="9138794150602726009">"Échec de l\'enregistrement du compte : veuillez vérifier le nom du serveur."</string>
     <string name="third_party_account_summary" msgid="1069915789382987226">"Ce compte est actuellement utilisé par l\'application <xliff:g id="ACCOUNT_OWNER">%s</xliff:g>."</string>
     <string name="sip_edit_title" msgid="489288416435014385">"Infos du compte SIP"</string>
     <string name="sip_edit_new_title" msgid="3659149255856520385">"Détails du compte SIP"</string>
@@ -729,4 +729,38 @@
     <string name="vibrate_hangup_sum">Vibration lorsque l\' appel est terminé</string>
     <string name="vibrate_call_waiting">Vibrer sur double appel</string>
     <string name="vibrate_call_waiting_sum">Vibrer lorsqu\'un appel est en attente</string>
+	
+
+	<!-- NEW TRANSLATIONS -->
+    <string name="ring_delay_title">Délai pour sonnerie</string>
+    <string name="ring_delay_summary">Choisir un délai</string>
+	
+	<string name="landscape_mode_title">Activer mode Paysage</string>
+    <string name="landscape_mode_summary">Activer le mode Paysage (si le senseur est actif)</string>
+	
+	<string name="enable_speaker_mode_title">Activer haut-parleur</string>
+    <string name="enable_speaker_mode_summary">Activer automatiquement la commutation sur haut-parleur en mode Paysage</string>
+	
+	<string name="enable_statusbar_title">Activer la barre d\'état</string>
+    <string name="enable_statusbar_summary">Activer l\'utilisation de la barre d\'état pendant un appel</string>
+	
+	<string name="disable_lightsout_title">Désactiver LightsOut</string>
+    <string name="disable_lightsout_summary">Désactiver LightsOut de la barre de navigation pendant un appel</string>
+	
+	<string name="exit_to_home_screen_title">Afficher Accueil en fin d\'appel</string>
+    <string name="exit_to_home_screen_summary">Retourner à l\'écran Accueil en fin d'appel plutôt que d\'afficher le journal des appels</string>
+
+	<!-- Mobile network settings screen, setting check box name -->
+    <string name="national_roaming">Itinérance nationale des données</string>
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="national_roaming_enable">Se connecter aux services des données lors de l\'itinérance nationale</string>
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="national_roaming_disable">Se connecter aux services des données lors de l\'itinérance nationale</string>
+	
+	
+    <!-- Noise suppression -->
+    <string name="noise_suppression_title">Supprimer le bruit</string>
+    <string name="noise_suppression_summary">Activer la suppression du bruit pour les appels</string>
+    <!-- End Noise suppression -->
+
 </resources>
