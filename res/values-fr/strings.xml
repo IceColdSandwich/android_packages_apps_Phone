@@ -748,7 +748,7 @@
     <string name="disable_lightsout_summary">Désactiver LightsOut de la barre de navigation pendant un appel</string>
 	
 	<string name="exit_to_home_screen_title">Afficher Accueil en fin d\'appel</string>
-    <string name="exit_to_home_screen_summary">Retourner à l\'écran Accueil en fin d'appel plutôt que d\'afficher le journal des appels</string>
+    <string name="exit_to_home_screen_summary">Retourner à l\'écran Accueil en fin d\'appel plutôt que d\'afficher le journal des appels</string>
 
 	<!-- Mobile network settings screen, setting check box name -->
     <string name="national_roaming">Itinérance nationale des données</string>
