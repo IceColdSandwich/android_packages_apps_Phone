@@ -32,6 +32,7 @@ import android.app.ActivityManagerNative;
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.ToneGenerator;
+import android.net.Uri;
 import android.os.AsyncResult;
 import android.os.Handler;
 import android.os.Message;
@@ -39,6 +40,7 @@ import android.os.RemoteException;
 import android.os.SystemProperties;
 import android.os.Vibrator;
 import android.provider.CallLog.Calls;
+import android.provider.ContactsContract;
 import android.provider.Settings;
 import android.telephony.PhoneNumberUtils;
 import android.telephony.PhoneStateListener;
@@ -46,6 +48,13 @@ import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.EventLog;
 import android.util.Log;
+
+import java.io.IOException;
+import java.io.FileNotFoundException;
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+import android.database.Cursor;
 
 /**
  * Phone app module that listens for phone state changes and various other
@@ -1002,11 +1011,88 @@ public class CallNotifier extends Handler
                     Ringer r = ((CallNotifier) cookie).mRinger;
                     r.setCustomRingtoneUri(ci.contactRingtoneUri);
                 }
+                else
+                {
+                    Ringer r = ((CallNotifier) cookie).mRinger;
+                    String Group_tone=getGroupCustomRingtone(ci.person_id);
+                    if(Group_tone.isEmpty()==false)
+                    {
+                        Uri groupRingtone=Uri.parse(Group_tone);
+                        if(groupRingtone!=null) r.setCustomRingtoneUri(groupRingtone);
+                    }
+                }
                 // ring, and other post-ring actions.
                 onCustomRingQueryComplete();
             }
         }
     }
+   
+
+    public String getGroupCustomRingtone(long contact_id) {
+        long group_id=0;
+        String Ringtone="";
+        
+        String GROUP_RINGTONE_FILENAME = "/data/data/com.android.contacts/files/group_ringtone_file.txt";
+        StringBuffer fileContent = new StringBuffer("");
+
+        try
+        {
+            //FileInputStream fis = mApplication.getApplicationContext().openFileInput(GROUP_RINGTONE_FILENAME);
+            InputStream fis = new FileInputStream(GROUP_RINGTONE_FILENAME);
+            
+            byte[] buffer = new byte[1024];
+            while ((fis.read(buffer)) != -1)
+            {
+                fileContent.append(new String(buffer).replace("\n","#"));
+            }
+            fis.close();
+        }
+        catch (FileNotFoundException e) {return "";}
+        catch (IOException e) {return "";}
+        
+        Cursor cursor = mApplication.getApplicationContext().getContentResolver().query(ContactsContract.Contacts.CONTENT_URI,
+                null,
+                ContactsContract.Contacts._ID
+                   + "="
+                   + contact_id,
+                   null,
+                   null);
+       if (cursor != null && cursor.getCount() >0)
+       {
+           cursor.moveToFirst();
+           long raw_contact_id= cursor.getLong(cursor.getColumnIndex(ContactsContract.Contacts.NAME_RAW_CONTACT_ID));
+           cursor.close();
+           
+           cursor = mApplication.getApplicationContext().getContentResolver().query(ContactsContract.Data.CONTENT_URI,
+                null,
+                ContactsContract.Data.RAW_CONTACT_ID
+                   + "="
+                   + raw_contact_id
+                   + " AND "
+                   + ContactsContract.Data.MIMETYPE
+                   + "='"
+                   + ContactsContract.CommonDataKinds.GroupMembership.CONTENT_ITEM_TYPE
+                   + "'",
+                   null,
+                   ContactsContract.Data.DATA1);
+           if (cursor != null && cursor.getCount() >0)
+           {
+               while(cursor.moveToNext())
+               {
+                   group_id= cursor.getLong(cursor.getColumnIndex(ContactsContract.Data.DATA1));
+                   String splitted[]=fileContent.toString().trim().split("#");
+                   for(int i=0; i<splitted.length; i++)
+                   {
+                       String vals[]=splitted[i].split("-");
+                       if(vals[0].compareTo(String.format("GROUP_%d",group_id))==0) {Ringtone=vals[1];break;}
+                   }
+               }
+               cursor.close();
+           }
+       }
+       return Ringtone;
+    }
+
 
     private void onDisconnect(AsyncResult r) {
         if (VDBG) log("onDisconnect()...  CallManager state: " + mCM.getState());
